@@ -1,0 +1,41 @@
+Algoritmo Nivel_1
+	Definir Adelante como entero
+	Adelante<-1
+	Mientras Adelante < 2
+		Escribir "aun no llego, debo avanzar una vez mas"
+		Adelante<- Adelante + 1
+	FinMientras
+	Escribir "Brillar"
+FinAlgoritmo
+
+Algoritmo Nivel_2
+	Paso <- entero
+	Obstaculo <- entero
+	direccion <- entero
+	Mientras paso<6
+		Escribir "Necesitas girar? (1=si 0=no)"
+		Leer Obstaculo
+		si Obstaculo =1
+			Escribir "derecha(1) izquierda(0)"
+			Leer direccion
+			Si direccion = 1
+				Escribir "Giraste a la derecha"
+			FinSi
+			si direccion = 0
+				Escribir "giraste a la izquierda"
+			FinSi
+		FinSi
+		si Obstaculo = 0
+			Paso<-Paso+1
+			Escribir "avanzar"	
+		FinSi
+	FinMientras
+Escribir "brillar"
+FinAlgoritmo
+
+Algoritmo Robot_1
+	Para i <- 1 Hasta 5 Con Paso 1
+		Escribir "paso adelante"
+	fin para
+	
+FinAlgoritmo
