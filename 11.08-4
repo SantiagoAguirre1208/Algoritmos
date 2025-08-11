@@ -1,0 +1,11 @@
+Algoritmo sin_titulo
+	definir i Como entero
+	Escribir "Escribe un numero o (0 para salir)"
+	Leer i 
+	Mientras i >= 0 Hacer
+		Escribir "escribiste ", i
+		Escribir "escribe otro numero"
+		Leer num
+		
+	FinMientras
+FinAlgoritmo

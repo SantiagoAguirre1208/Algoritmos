@@ -1,0 +1,13 @@
+Algoritmo sin_titulo//por eso no debo crear como proyecto calculadores
+	Definir contador Como Entero 
+	Contador <- 1
+	Suma <- 0
+	Definir num como entero
+	Mientras Contador <= 5
+		Escribir "digite un numero: "
+		Leer Num
+		Suma <- suma + num
+		Contador <- Contador + 1
+	FinMientras
+	Escribir "la suma total es: " suma
+FinAlgoritmo
