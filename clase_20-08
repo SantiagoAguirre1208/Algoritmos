@@ -1,0 +1,6 @@
+# Programa numero 1 en Python
+x = 5
+if x > 0: # el si es if y el entonces son dos puntos
+    print("Positivo") # se ponen las comillas y el imprimir es print, ahora es parentesis
+else:
+    print("Negativo")
